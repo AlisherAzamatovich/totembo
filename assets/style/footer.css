@@ -1,0 +1,128 @@
+.footer{
+  background: #323232;
+  padding-top: 100px;
+  padding-bottom: 90px;
+  
+}
+.footer__content{
+  display: flex;
+  justify-content: flex-start;
+}
+.footer__content-menu{
+  display: flex;
+  flex-direction: column;
+}
+.footer__content-menu-title{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer__content-menu-items{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-top: 40px;
+}
+.footer__content-menu-item{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.footer_content-products{
+  margin-left: 160px;
+}
+.footer_content-products-title{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer_content-products-items{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.footer_content-products-item{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.footer__content-contacts{
+  display: flex;
+  flex-direction: column;
+  margin-left: 217px;
+}
+.footer__content-contacts-title{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.footer__content-contacts-adress{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-variant: all-small-caps;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+.footer__content-contacts-phone{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-variant: all-small-caps;
+  color: #FFFFFF;
+  margin: 15px 0;
+}
+.footer__content-contacts-email{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-variant: all-small-caps;
+  color: #FFFFFF;
+}
+.footer__content-contacts-social-networks-tile{
+  margin-top: 60px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2.5px;
+  font-variant: all-small-caps;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.footer__content-contacts-social-networks{
+  display: flex;
+  column-gap: 26px;
+}

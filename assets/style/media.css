@@ -1,0 +1,122 @@
+/* 1400px - 1399.99px */
+/* 1200px - 1199.99px */
+/* 992px - 991.99 */
+
+/* 768px - 767.99px */
+/* 576px - 575.99px */
+
+@media (max-width: 1399.99px) {
+
+}
+
+@media (max-width: 1199.99px) {
+  .header__content{
+    padding: 0 20px;
+  }
+
+}
+
+@media (max-width: 991.99px) {
+  .header__content{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+  .header__content-vertical-block{
+    flex-direction: row;
+    column-gap: 20px;
+  }
+
+  .header__content-vertical-block-item{
+    width: 400px;
+  }
+  .vertical__block-info-sale{
+    padding: 5px 20px;
+    font-size: 16px;
+  }
+  .header__content-mono-block{
+    width: 400px;
+    padding: 0;
+    column-gap: 0;
+  }
+  .mono__block-info-sale{
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+  .header__content-mono-block img{
+    width: 150px;
+  }
+  .mono__block-info-type{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #323232;
+  }
+  .mono__block-info-brand{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .mono__block-info-price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #323232;
+  }
+  .mono__block-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 20px;
+  }
+}
+
+@media (max-width: 767.99px) {
+  .nav__content{
+    position: relative;
+  }
+  .nav__content-links{
+    position: absolute;
+    top: -400%;
+    right: 50%;
+    flex-direction: column;
+    z-index: 1;
+    background: #E1E1E1;
+    width: 150px;
+    transition: 1s;
+    gap: 0;
+
+  }
+  .nav__content-link-item{
+    padding: 15px 0;
+  }
+  .nav__content{
+    justify-content: space-between;
+  }
+  .nav__content-menu-btn{
+    display: flex;
+  }
+  .nav__content-menu:hover
+  .nav__content-links
+  {
+    top: 102%;
+  }
+  .main__content-title{
+    font-size: 24px;
+    margin-top: 20px;
+  }
+}
